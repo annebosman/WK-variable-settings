@@ -1,0 +1,74 @@
+// =========== Settings
+
+// Set your own font
+$font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-title: 'Fira Sans', Helvetica, Arial, sans-serif;
+
+// The base font-size, all other elements will adjust to this value
+$font-size: 14px;
+
+$font-size-30: 0.85rem; //12px
+$font-size-40: 0.92rem; //13px
+$font-size-50: 1rem;	//14px
+
+// The grid columns will be used in the grid mixin, 48 is standard
+$grid-columns: 12;
+
+// Min width of the content
+$min-width: 768px;
+
+// Use the vertical-spacing on margins and paddings
+$spacing: 1.5rem;
+
+// Adjust the border-radius
+$border-radius-1: 2px;
+
+// Width of the main layout elements
+$navigation-width: 60px;
+$header-height: 60px;
+
+// Media queries
+$breakpoint-10: 768px;
+$breakpoint-20: 960px;
+$breakpoint-30: 1280px;
+$breakpoint-40: 1440px;
+$breakpoint-50: 1600px;
+
+// Colors
+$white: #fff;
+$color-neutral-10: #ececec; 
+$color-neutral-20: #dadada;
+$color-neutral-30: #bfbfbf; 
+$color-neutral-50: #a3a3a3; // gray
+$color-neutral-60: #757575;
+$color-neutral-90: #474747; // almost black
+$black: #000;
+
+// Primary WK colors
+$color-red-20: #f8b3b3;
+$color-red-30: #f69385;
+$color-red-40: #eb675a;
+$color-red-50: #e5202e; // Default
+
+$color-blue-20: #a6d1eb;
+$color-blue-30: #7fbce1;
+$color-blue-40: #409cd2;
+$color-blue-50: #007ac3; // Default
+$color-blue-70: #00619c; 
+
+$color-green-20: #d5e8b1;
+$color-green-30: #c2dd8f;
+$color-green-40: #a4cd58; 
+$color-green-50: #85bc20; // Default
+
+// Primary Brand colors
+$color-brand-20: $color-blue-20;
+$color-brand-30: $color-blue-30;
+$color-brand-40: $color-blue-40;
+$color-brand-50: $color-blue-50; // Default
+$color-brand-70: $color-blue-70; 
+
+$color-success: $color-green-50;
+$color-alert: $color-red-50;
+$color-warning: $color-blue-40;
+
